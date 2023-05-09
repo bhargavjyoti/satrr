@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, isActive] = useState(false);
@@ -14,9 +15,9 @@ const Navbar = () => {
             <h1 className="text-xl font-bold">सत्र</h1>
             {(active) ? 
               <div onClick={menuToggler} className="flex w-full justify-end gap-6 mx-4">
-              <h3>Home</h3>
-              <h3>About</h3>
-              <h3>Download</h3>
+              <Link to="/" >Home</Link>
+              <Link to="about">About</Link>
+              <Link to="features">Features</Link>
             </div>
             : ''}
             {/* Hammburger Icon */}
