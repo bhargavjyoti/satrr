@@ -15,9 +15,9 @@ const Navbar = () => {
             <h1 className="text-xl font-bold">सत्र</h1>
             {(active) ? 
               <div onClick={menuToggler} className="flex w-full justify-end gap-6 mx-4">
-              <Link to="/" >Home</Link>
-              <Link to="about">About</Link>
-              <Link to="features">Features</Link>
+              <Link to="/" className="hover:underline underline-offset-4">Home</Link>
+              <Link to="about" className="hover:underline underline-offset-4">About</Link>
+              <Link to="features" className="hover:underline underline-offset-4">Features</Link>
             </div>
             : ''}
             {/* Hammburger Icon */}
