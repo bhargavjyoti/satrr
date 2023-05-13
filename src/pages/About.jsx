@@ -1,8 +1,6 @@
-import React from 'react'
-
 const About = () => {
   return (
-    <>
+    <div>
       <div className='w-full py-24'>
         <div className="w-11/12 mx-auto md:w-5/6">
           <div className='flex flex-col items-center gap-8'>
@@ -14,7 +12,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
