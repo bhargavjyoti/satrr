@@ -12,7 +12,7 @@ const Home = () => {
               <h3 className="text-3xl font-normal text-blue-700">सत्र</h3>
               <h1 className="text-6xl font-bold">One Powerfull Software To Manage <span className="text-blue-700 md:inline-block"><Typetext /></span></h1>
               <p className="text-lg font-light md:w-3/4 text-gray-500">Satrr software is a powerful tool that can help healthcare providers streamline their operations and improve patient care. With features such as appointment scheduling, electronic health records (EHRs), billing and invoicing, and reporting, medical management software can simplify the administrative tasks that can consume valuable time and resources.</p>
-              <a href="#" className="border bg-blue-700 rounded-xl py-4 md:w-1/3 text-center text-lg text-white hover:scale-105 transition-all">Download For Windows</a>
+              <a href="#" className="border bg-blue-700 rounded-xl py-4 md:w-1/3 text-center text-lg text-white hover:bg-blue-800 transition-colors">Download For Windows</a>
             </div>
             {/* Right Side */}
             <div className='md:w-2/5 mx-auto'>

@@ -1,6 +1,6 @@
 const Features = () => {
   return (
-    <div className='w-full py-24'>
+    <div className='w-full pt-24'>
       <div className='w-11/12 mx-auto md:w-5/6'>
         <div className="flex flex-col items-center gap-8">
           <h1 className='text-6xl underline decoration-blue-700'>Features</h1>
